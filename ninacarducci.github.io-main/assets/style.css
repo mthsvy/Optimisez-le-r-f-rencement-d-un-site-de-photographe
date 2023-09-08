@@ -91,7 +91,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -147,7 +147,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 40px;
 }
 .quote__author {
 	font-family: Spectral;
@@ -242,6 +242,10 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.lightboxImage {
+	width: 100%;
 }
 
 @media all and (max-width: 1180px) {
