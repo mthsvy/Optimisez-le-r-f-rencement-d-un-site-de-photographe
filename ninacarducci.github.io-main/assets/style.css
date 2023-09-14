@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: auto;
 }
 
 #about {
@@ -69,6 +70,7 @@ body {
 
 .picture img {
 	width: 100%;
+	height: auto;
 
 }
 #about-me {
@@ -355,6 +357,7 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
-	}
+		height: auto;
 }
 
+}
